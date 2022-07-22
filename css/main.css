@@ -308,6 +308,13 @@ template {
   display: none;
 }
 
+/* fredoka-one-regular - latin */
+@font-face {
+  font-family: "Fredoka One";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/fredoka-one-v13-latin-regular.woff2") format("woff2"), url("../fonts/fredoka-one-v13-latin-regular.woff") format("woff");
+}
 /* GENERAL */
 html {
   box-sizing: border-box;
@@ -359,7 +366,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  font-family: "Arial", sans-serif;
+  font-family: "Fredoka One";
   background-color: #fff;
 }
 
@@ -367,6 +374,11 @@ img {
   max-width: 100%;
   vertical-align: middle;
   margin-bottom: 30px;
+}
+
+.heading {
+  font-family: "Fredoka One";
+  font-weight: 400;
 }
 
 .container {
